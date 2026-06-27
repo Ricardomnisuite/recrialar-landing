@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Menu, X, Phone } from 'lucide-react';
+import { Menu, X, Phone, Instagram } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
 
@@ -81,6 +81,16 @@ export default function Header() {
               <span className="tracking-wide">966 104 885</span>
             </a>
 
+            <a
+              href="https://www.instagram.com/recrialaroficial"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center text-white hover:text-white/75 hover:scale-[1.04] transition-all duration-200"
+              aria-label="Instagram da Recrialar"
+            >
+              <Instagram size={16} strokeWidth={1.5} />
+            </a>
+
             <button
               type="button"
               onClick={scrollToWizard}
@@ -137,6 +147,18 @@ export default function Header() {
                 >
                   <Phone size={15} strokeWidth={1.5} />
                   <span>966 104 885</span>
+                </a>
+
+                <a
+                  href="https://www.instagram.com/recrialaroficial"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 text-sm font-medium text-ink-muted"
+                  onClick={() => setMenuOpen(false)}
+                  aria-label="Instagram da Recrialar"
+                >
+                  <Instagram size={15} strokeWidth={1.5} />
+                  <span>Instagram</span>
                 </a>
 
                 <button

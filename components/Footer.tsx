@@ -1,4 +1,4 @@
-import { Phone, MessageCircle } from 'lucide-react';
+import { Phone, MessageCircle, Instagram } from 'lucide-react';
 
 const links = [
   { href: '#servicos', label: 'Serviços' },
@@ -70,6 +70,16 @@ export default function Footer() {
               >
                 <MessageCircle size={14} strokeWidth={1.5} />
                 WhatsApp
+              </a>
+              <a
+                href="https://www.instagram.com/recrialaroficial"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 font-sans text-sm text-parchment-300 hover:text-parchment-100 transition-colors duration-200"
+                aria-label="Instagram da Recrialar"
+              >
+                <Instagram size={14} strokeWidth={1.5} />
+                Instagram
               </a>
               <div className="mt-2">
                 <p className="font-sans text-xs text-parchment-400 leading-relaxed">
