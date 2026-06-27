@@ -37,6 +37,21 @@ export const metadata: Metadata = {
       'Remodelações, pintura, pladur, chão flutuante e pequenas reparações em Setúbal, Tróia, Comporta e arredores.',
     type: 'website',
     locale: 'pt_PT',
+    images: [
+      {
+        url: 'https://recrialar.com/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Recrialar — Obras e Remodelações em Setúbal',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Obras e Remodelações em Setúbal, Tróia e Comporta | Recrialar',
+    description:
+      'Remodelações, pintura, pladur, chão flutuante e pequenas reparações em Setúbal, Tróia, Comporta e arredores.',
+    images: ['https://recrialar.com/og-image.png'],
   },
   robots: {
     index: true,
