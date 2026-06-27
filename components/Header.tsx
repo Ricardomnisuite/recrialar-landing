@@ -34,8 +34,8 @@ export default function Header() {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
-          ? 'bg-black/35 backdrop-blur-md border-b border-white/10 shadow-[0_1px_8px_rgba(0,0,0,0.10)]'
-          : 'bg-transparent'
+        ? 'bg-black/35 backdrop-blur-md border-b border-white/10 shadow-[0_1px_8px_rgba(0,0,0,0.10)]'
+        : 'bg-transparent'
         }`}
     >
       <div className="container-wide section-padding pt-3 lg:pt-4">
@@ -88,7 +88,7 @@ export default function Header() {
               className="flex items-center text-white hover:text-white/75 hover:scale-[1.04] transition-all duration-200"
               aria-label="Instagram da Recrialar"
             >
-              <Instagram size={16} strokeWidth={1.5} />
+              <Instagram size={18} strokeWidth={1.5} />
             </a>
 
             <button
